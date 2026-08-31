@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Progettazione pala rotorica in composito",
+    "date": "2025-06-01",
+    "role": "Design Engineer",
+    "description": "Definizione laminato, ottimizzazione geometria airfoil e validazione strutturale via FEA (ANSYS) per componente rotorico in materiale composito.",
+    "tags": [
+      "Compositi",
+      "FEA",
+      "ANSYS",
+      "Aerospace"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Ottimizzazione massa pinza freno",
+    "date": "2025-02-01",
+    "role": "Mechanical Design Engineer",
+    "description": "Riduzione massa di una pinza freno tramite iterazioni CAD e verifica strutturale, mantenendo i requisiti di rigidezza e sicurezza.",
+    "tags": [
+      "CAD",
+      "Ottimizzazione",
+      "Automotive"
+    ],
+    "link": ""
+  },
+  {
+    "title": "Validazione FEM telaio veicolo leggero",
+    "date": "2024-09-01",
+    "role": "Structural Engineer",
+    "description": "Design strutturale e validazione FEM di un telaio veicolo a basso peso, con focus su rigidezza torsionale e resistenza a fatica.",
+    "tags": [
+      "FEA",
+      "Fatica",
+      "Structural"
+    ],
+    "link": ""
+  }
+]

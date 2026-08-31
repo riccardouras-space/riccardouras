@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ricerche | Riccardo Uras</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Riccardo Uras</a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Progetti</a>
+      <a href="research.html" class="active">Ricerche</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header">
+  <div class="container">
+    <h1>Ricerche &amp; Note</h1>
+    <p>Appunti e approfondimenti dalle mie ricerche: materiali, ingegneria, carriera e altro.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="filters" id="tag-filters-research"></div>
+    <div id="all-research" class="list-grid">Caricamento...</div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Riccardo Uras</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  loadResearchPage();
+</script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riccardo Uras | Mechanical Design Engineer</title>
+<meta name="description" content="Portfolio di Riccardo Uras - Mechanical Design Engineer specializzato in materiali compositi e aerospace.">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Riccardo Uras</a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Progetti</a>
+      <a href="research.html">Ricerche</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Riccardo Uras</h1>
+    <p class="subtitle">Mechanical Design Engineer &mdash; Aerospace &amp; Composite Materials</p>
+    <p class="hero-text">
+      Progettazione meccanica, laminati compositi, analisi FEA e ottimizzazione strutturale.
+      Rotterdam, Paesi Bassi.
+    </p>
+    <div class="hero-links">
+      <a href="projects.html" class="btn btn-primary">Vedi i progetti</a>
+      <a href="research.html" class="btn btn-secondary">Le mie ricerche</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2>Ultimi progetti</h2>
+    <div id="latest-projects" class="card-grid">Caricamento...</div>
+    <p class="see-all"><a href="projects.html">Vedi tutti i progetti &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <h2>Ultime ricerche</h2>
+    <div id="latest-research" class="card-grid">Caricamento...</div>
+    <p class="see-all"><a href="research.html">Vedi tutte le ricerche &rarr;</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Riccardo Uras</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  loadHomeContent();
+</script>
+</body>
+</html>
