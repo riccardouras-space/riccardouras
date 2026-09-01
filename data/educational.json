@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "id": "physics",
+      "name": { "en": "Physics", "it": "Fisica", "fr": "Physique", "de": "Physik" },
+      "entries": [
+        {
+          "id": "physics-stress-strain",
+          "title": {
+            "en": "Stress-Strain Fundamentals (draft)",
+            "it": "Fondamenti di sforzo-deformazione (bozza)",
+            "fr": "Fondamentaux contrainte-deformation (brouillon)",
+            "de": "Grundlagen Spannung-Dehnung (Entwurf)"
+          },
+          "body": {
+            "en": "Draft placeholder. This entry will cover the relationship between stress and strain, elastic vs plastic deformation, and how these concepts apply to aerospace structural design.",
+            "it": "Bozza segnaposto. Questa voce trattera la relazione tra sforzo e deformazione, la deformazione elastica vs plastica, e come questi concetti si applicano alla progettazione strutturale aerospaziale.",
+            "fr": "Brouillon provisoire. Cette entree couvrira la relation entre contrainte et deformation, et comment ces concepts s'appliquent a la conception structurelle aerospatiale.",
+            "de": "Platzhalter-Entwurf. Dieser Eintrag behandelt die Beziehung zwischen Spannung und Dehnung und wie diese Konzepte im Luft- und Raumfahrt-Strukturdesign angewendet werden."
+          }
+        },
+        {
+          "id": "physics-vibration",
+          "title": {
+            "en": "Vibration & Resonance Basics (draft)",
+            "it": "Basi di vibrazioni e risonanza (bozza)",
+            "fr": "Bases des vibrations et resonance (brouillon)",
+            "de": "Grundlagen Schwingung & Resonanz (Entwurf)"
+          },
+          "body": {
+            "en": "Draft placeholder. Natural frequency, resonance, and why avoiding resonance matters for rotor blades and structural components.",
+            "it": "Bozza segnaposto. Frequenza naturale, risonanza e perche evitare la risonanza e importante per pale rotoriche e componenti strutturali.",
+            "fr": "Brouillon provisoire. Frequence propre, resonance, et pourquoi eviter la resonance est important pour les pales de rotor.",
+            "de": "Platzhalter-Entwurf. Eigenfrequenz, Resonanz und warum die Vermeidung von Resonanz bei Rotorblattern wichtig ist."
+          }
+        }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": { "en": "Mathematics", "it": "Matematica", "fr": "Mathematiques", "de": "Mathematik" },
+      "entries": [
+        {
+          "id": "math-tensor-notation",
+          "title": {
+            "en": "Tensor Notation for Engineers (draft)",
+            "it": "Notazione tensoriale per ingegneri (bozza)",
+            "fr": "Notation tensorielle pour ingenieurs (brouillon)",
+            "de": "Tensor-Notation fur Ingenieure (Entwurf)"
+          },
+          "body": {
+            "en": "Draft placeholder. A practical introduction to tensor notation as used in stress and strain tensors within FEA software.",
+            "it": "Bozza segnaposto. Un'introduzione pratica alla notazione tensoriale usata nei tensori di sforzo e deformazione nei software FEA.",
+            "fr": "Brouillon provisoire. Une introduction pratique a la notation tensorielle utilisee dans les logiciels FEA.",
+            "de": "Platzhalter-Entwurf. Eine praktische Einfuhrung in die Tensor-Notation, wie sie in FEA-Software verwendet wird."
+          }
+        }
+      ]
+    },
+    {
+      "id": "materials",
+      "name": { "en": "Materials", "it": "Materials", "fr": "Materiaux", "de": "Materialien" },
+      "entries": [
+        {
+          "id": "materials-carbon-fiber",
+          "title": {
+            "en": "Carbon Fiber Properties Overview (draft)",
+            "it": "Panoramica proprieta fibra di carbonio (bozza)",
+            "fr": "Apercu des proprietes de la fibre de carbone (brouillon)",
+            "de": "Ubersicht Kohlefaser-Eigenschaften (Entwurf)"
+          },
+          "body": {
+            "en": "Draft placeholder. Mechanical properties of carbon fiber reinforced polymers, anisotropy, and typical failure modes.",
+            "it": "Bozza segnaposto. Proprieta meccaniche dei polimeri rinforzati con fibra di carbonio, anisotropia e modalita di rottura tipiche.",
+            "fr": "Brouillon provisoire. Proprietes mecaniques des polymeres renforces de fibres de carbone, anisotropie et modes de rupture typiques.",
+            "de": "Platzhalter-Entwurf. Mechanische Eigenschaften kohlefaserverstarkter Polymere, Anisotropie und typische Versagensmodi."
+          }
+        },
+        {
+          "id": "materials-fatigue",
+          "title": {
+            "en": "Fatigue Life in Composite Structures (draft)",
+            "it": "Vita a fatica nelle strutture composite (bozza)",
+            "fr": "Duree de vie en fatigue des structures composites (brouillon)",
+            "de": "Ermudungslebensdauer bei Verbundstrukturen (Entwurf)"
+          },
+          "body": {
+            "en": "Draft placeholder. How fatigue behaves differently in composites vs metals, and implications for design margins.",
+            "it": "Bozza segnaposto. Come la fatica si comporta diversamente nei compositi rispetto ai metalli, e le implicazioni per i margini di progettazione.",
+            "fr": "Brouillon provisoire. Comment la fatigue se comporte differemment dans les composites par rapport aux metaux.",
+            "de": "Platzhalter-Entwurf. Wie sich Ermudung bei Verbundwerkstoffen im Vergleich zu Metallen unterschiedlich verhalt."
+          }
+        }
+      ]
+    }
+  ]
+}
