@@ -1,11 +1,14 @@
 [
   {
-    "title": "Progettazione pala rotorica in composito",
+    "title_it": "Progettazione pala rotorica in composito",
+    "title_en": "Composite Rotor Blade Design",
     "date": "2025-06-01",
-    "role": "Design Engineer",
-    "description": "Definizione laminato, ottimizzazione geometria airfoil e validazione strutturale via FEA (ANSYS) per componente rotorico in materiale composito.",
+    "role_it": "Design Engineer",
+    "role_en": "Design Engineer",
+    "description_it": "Definizione laminato, ottimizzazione geometria airfoil e validazione strutturale via FEA (ANSYS) per componente rotorico in materiale composito.",
+    "description_en": "Laminate layup definition, airfoil geometry optimization, and structural validation via FEA (ANSYS) for a composite rotor component.",
     "tags": [
-      "Compositi",
+      "Composites",
       "FEA",
       "ANSYS",
       "Aerospace"
@@ -13,25 +16,31 @@
     "link": ""
   },
   {
-    "title": "Ottimizzazione massa pinza freno",
+    "title_it": "Ottimizzazione massa pinza freno",
+    "title_en": "Brake Caliper Mass Optimization",
     "date": "2025-02-01",
-    "role": "Mechanical Design Engineer",
-    "description": "Riduzione massa di una pinza freno tramite iterazioni CAD e verifica strutturale, mantenendo i requisiti di rigidezza e sicurezza.",
+    "role_it": "Mechanical Design Engineer",
+    "role_en": "Mechanical Design Engineer",
+    "description_it": "Riduzione massa di una pinza freno tramite iterazioni CAD e verifica strutturale, mantenendo i requisiti di rigidezza e sicurezza.",
+    "description_en": "Mass reduction of a brake caliper through iterative CAD design and structural checks, while preserving stiffness and safety requirements.",
     "tags": [
       "CAD",
-      "Ottimizzazione",
+      "Optimization",
       "Automotive"
     ],
     "link": ""
   },
   {
-    "title": "Validazione FEM telaio veicolo leggero",
+    "title_it": "Validazione FEM telaio veicolo leggero",
+    "title_en": "Lightweight Vehicle Chassis FEM Validation",
     "date": "2024-09-01",
-    "role": "Structural Engineer",
-    "description": "Design strutturale e validazione FEM di un telaio veicolo a basso peso, con focus su rigidezza torsionale e resistenza a fatica.",
+    "role_it": "Structural Engineer",
+    "role_en": "Structural Engineer",
+    "description_it": "Design strutturale e validazione FEM di un telaio veicolo a basso peso, con focus su rigidezza torsionale e resistenza a fatica.",
+    "description_en": "Structural design and FEM validation of a lightweight vehicle chassis, focused on torsional stiffness and fatigue resistance.",
     "tags": [
       "FEA",
-      "Fatica",
+      "Fatigue",
       "Structural"
     ],
     "link": ""

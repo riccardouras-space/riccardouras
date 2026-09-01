@@ -3,7 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ricerche | Riccardo Uras</title>
+<title>Research | Riccardo Uras</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="data:,">
 </head>
@@ -13,38 +15,40 @@
   <div class="container header-inner">
     <a href="index.html" class="logo">Riccardo Uras</a>
     <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Progetti</a>
-      <a href="research.html" class="active">Ricerche</a>
-      <a href="about.html">About</a>
+      <a href="index.html" data-i18n="nav_home">Home</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="research.html" data-i18n="nav_research" class="active">Research</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
     </nav>
+    <div class="header-right">
+      <div class="lang-switch">
+        <button data-lang="it">IT</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
   </div>
 </header>
 
 <section class="page-header">
   <div class="container">
-    <h1>Ricerche &amp; Note</h1>
-    <p>Appunti e approfondimenti dalle mie ricerche: materiali, ingegneria, carriera e altro.</p>
+    <h1 data-i18n="research_title">Research &amp; Notes</h1>
+    <p data-i18n="research_subtitle">...</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
     <div class="filters" id="tag-filters-research"></div>
-    <div id="all-research" class="list-grid">Caricamento...</div>
+    <div id="all-research" class="list-grid"></div>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; <span id="year"></span> Riccardo Uras</p>
+    <p>&copy; <span id="year"></span> Riccardo Uras &mdash; <span data-i18n="footer_rights">All rights reserved.</span></p>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-  loadResearchPage();
-</script>
 </body>
 </html>

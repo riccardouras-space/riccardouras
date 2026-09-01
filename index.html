@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Riccardo Uras | Mechanical Design Engineer</title>
-<meta name="description" content="Portfolio di Riccardo Uras - Mechanical Design Engineer specializzato in materiali compositi e aerospace.">
+<meta name="description" content="Portfolio of Riccardo Uras - Mechanical Design Engineer specialized in composite materials and aerospace.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="data:,">
 </head>
@@ -14,55 +16,54 @@
   <div class="container header-inner">
     <a href="index.html" class="logo">Riccardo Uras</a>
     <nav class="main-nav">
-      <a href="index.html">Home</a>
-      <a href="projects.html">Progetti</a>
-      <a href="research.html">Ricerche</a>
-      <a href="about.html">About</a>
+      <a href="index.html" data-i18n="nav_home" class="active">Home</a>
+      <a href="projects.html" data-i18n="nav_projects">Projects</a>
+      <a href="research.html" data-i18n="nav_research">Research</a>
+      <a href="about.html" data-i18n="nav_about">About</a>
     </nav>
+    <div class="header-right">
+      <div class="lang-switch">
+        <button data-lang="it">IT</button>
+        <button data-lang="en">EN</button>
+      </div>
+    </div>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h1>Riccardo Uras</h1>
-    <p class="subtitle">Mechanical Design Engineer &mdash; Aerospace &amp; Composite Materials</p>
-    <p class="hero-text">
-      Progettazione meccanica, laminati compositi, analisi FEA e ottimizzazione strutturale.
-      Rotterdam, Paesi Bassi.
-    </p>
+    <h1 data-i18n="hero_title">Riccardo Uras</h1>
+    <p class="subtitle" data-i18n="hero_subtitle">Mechanical Design Engineer</p>
+    <p class="hero-text" data-i18n="hero_text">...</p>
     <div class="hero-links">
-      <a href="projects.html" class="btn btn-primary">Vedi i progetti</a>
-      <a href="research.html" class="btn btn-secondary">Le mie ricerche</a>
+      <a href="projects.html" class="btn btn-primary" data-i18n="hero_btn_projects">View projects</a>
+      <a href="research.html" class="btn btn-secondary" data-i18n="hero_btn_research">My research</a>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h2>Ultimi progetti</h2>
-    <div id="latest-projects" class="card-grid">Caricamento...</div>
-    <p class="see-all"><a href="projects.html">Vedi tutti i progetti &rarr;</a></p>
+    <h2 data-i18n="home_latest_projects">Latest projects</h2>
+    <div id="latest-projects" class="card-grid"></div>
+    <p class="see-all"><a href="projects.html" data-i18n="see_all">View all projects &rarr;</a></p>
   </div>
 </section>
 
 <section class="section section-alt">
   <div class="container">
-    <h2>Ultime ricerche</h2>
-    <div id="latest-research" class="card-grid">Caricamento...</div>
-    <p class="see-all"><a href="research.html">Vedi tutte le ricerche &rarr;</a></p>
+    <h2 data-i18n="home_latest_research">Latest research</h2>
+    <div id="latest-research" class="card-grid"></div>
+    <p class="see-all"><a href="research.html" data-i18n="see_all_research">View all research &rarr;</a></p>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container">
-    <p>&copy; <span id="year"></span> Riccardo Uras</p>
+    <p>&copy; <span id="year"></span> Riccardo Uras &mdash; <span data-i18n="footer_rights">All rights reserved.</span></p>
   </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
-<script>
-  document.getElementById('year').textContent = new Date().getFullYear();
-  loadHomeContent();
-</script>
 </body>
 </html>

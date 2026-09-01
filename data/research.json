@@ -1,20 +1,24 @@
 [
   {
-    "title": "Confronto tecniche di layup per laminati compositi",
+    "title_it": "Confronto tecniche di layup per laminati compositi",
+    "title_en": "Comparing Layup Techniques for Composite Laminates",
     "date": "2026-08-01",
-    "summary": "Note comparative su tecniche manuali vs automatizzate (AFP) per la stesura di laminati compositi in ambito aerospaziale.",
+    "summary_it": "Note comparative su tecniche manuali vs automatizzate (AFP) per la stesura di laminati compositi in ambito aerospaziale.",
+    "summary_en": "Comparative notes on manual vs automated (AFP) layup techniques for composite laminates in aerospace applications.",
     "tags": [
-      "Compositi",
+      "Composites",
       "Manufacturing"
     ],
     "link": ""
   },
   {
-    "title": "Strategie di posizionamento nel mercato del lavoro NL/DE/CH",
+    "title_it": "Strategie di posizionamento nel mercato del lavoro NL/DE/CH",
+    "title_en": "Positioning Strategies for the NL/DE/CH Job Market",
     "date": "2026-07-15",
-    "summary": "Appunti su come strutturare CV e portfolio per il mercato ingegneristico in Olanda, Germania e Svizzera.",
+    "summary_it": "Appunti su come strutturare CV e portfolio per il mercato ingegneristico in Olanda, Germania e Svizzera.",
+    "summary_en": "Notes on structuring a CV and portfolio for the engineering job market in the Netherlands, Germany, and Switzerland.",
     "tags": [
-      "Carriera"
+      "Career"
     ],
     "link": ""
   }
