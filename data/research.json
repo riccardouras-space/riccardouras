@@ -1,25 +1,74 @@
 [
   {
-    "title_it": "Confronto tecniche di layup per laminati compositi",
-    "title_en": "Comparing Layup Techniques for Composite Laminates",
+    "id": "layup-techniques",
     "date": "2026-08-01",
-    "summary_it": "Note comparative su tecniche manuali vs automatizzate (AFP) per la stesura di laminati compositi in ambito aerospaziale.",
-    "summary_en": "Comparative notes on manual vs automated (AFP) layup techniques for composite laminates in aerospace applications.",
-    "tags": [
-      "Composites",
-      "Manufacturing"
-    ],
+    "tags": ["Composites", "Manufacturing"],
+    "title": {
+      "en": "Comparing Layup Techniques for Composite Laminates",
+      "it": "Confronto tra tecniche di layup per laminati compositi",
+      "fr": "Comparaison des techniques de stratification pour composites",
+      "de": "Vergleich von Laminierungstechniken für Verbundwerkstoffe"
+    },
+    "summary": {
+      "en": "Manual hand layup vs automated fiber placement: cost, quality, and when each makes sense.",
+      "it": "Layup manuale vs posizionamento automatico delle fibre: costi, qualità e quando usarli.",
+      "fr": "Stratification manuelle vs placement automatisé des fibres : coûts, qualité et cas d'usage.",
+      "de": "Manuelles Laminieren vs. automatisierte Faserablage: Kosten, Qualität und Einsatzbereiche."
+    },
+    "body": {
+      "en": "Composite layup is the process of stacking fiber-reinforced layers to build a laminate with the desired mechanical properties. Manual hand layup is flexible and cheap for low-volume or highly complex geometries, but it depends heavily on operator skill and introduces variability in fiber alignment and resin content.\n\nAutomated Fiber Placement (AFP) and Automated Tape Laying (ATL) solve this by using robotic heads to place tows or tapes with sub-millimeter precision, repeatable pressure, and controlled compaction. This improves void content and reduces scrap, but the equipment cost is significant and the process is less forgiving with highly curved or small parts.\n\nIn my experience with rotor blade laminates, the decision usually comes down to production volume and part complexity. Prototype and low-rate parts still favor hand layup, while primary structures with thousands of units per year justify the AFP investment.",
+      "it": "Il layup dei compositi è il processo di sovrapposizione di strati rinforzati con fibre per ottenere un laminato con le proprietà meccaniche desiderate. Il layup manuale è flessibile ed economico per piccoli volumi o geometrie molto complesse, ma dipende fortemente dall'abilità dell'operatore e introduce variabilità nell'allineamento delle fibre e nel contenuto di resina.\n\nL'Automated Fiber Placement (AFP) e l'Automated Tape Laying (ATL) risolvono questo problema usando teste robotizzate che posizionano fibre o nastri con precisione sub-millimetrica, pressione ripetibile e compattazione controllata. Questo migliora il contenuto di vuoti e riduce gli scarti, ma il costo dell'attrezzatura è significativo e il processo è meno adatto a parti molto curve o piccole.\n\nNella mia esperienza con laminati di pale rotoriche, la scelta dipende solitamente dal volume di produzione e dalla complessità del pezzo. Prototipi e produzioni a basso rateo favoriscono ancora il layup manuale, mentre le strutture primarie con migliaia di unità l'anno giustificano l'investimento in AFP.",
+      "fr": "La stratification des composites consiste à empiler des couches renforcées de fibres pour obtenir un stratifié aux propriétés mécaniques souhaitées. La stratification manuelle est flexible et économique pour les petits volumes ou les géométries complexes, mais dépend fortement de la compétence de l'opérateur et introduit une variabilité dans l'alignement des fibres et la teneur en résine.\n\nLe placement automatisé de fibres (AFP) et le placement automatisé de bandes (ATL) résolvent ce problème grâce à des têtes robotisées qui déposent les fibres ou bandes avec une précision submillimétrique, une pression répétable et un compactage contrôlé. Cela améliore le taux de porosité et réduit les rebuts, mais le coût des équipements est important et le procédé est moins tolérant pour les pièces très courbées ou petites.\n\nDans mon expérience avec les stratifiés de pales de rotor, le choix dépend généralement du volume de production et de la complexité de la pièce. Les prototypes et les faibles cadences favorisent encore la stratification manuelle, tandis que les structures primaires produites à des milliers d'exemplaires par an justifient l'investissement en AFP.",
+      "de": "Beim Laminieren von Verbundwerkstoffen werden faserverstärkte Schichten gestapelt, um ein Laminat mit den gewünschten mechanischen Eigenschaften herzustellen. Manuelles Laminieren ist flexibel und günstig für kleine Stückzahlen oder sehr komplexe Geometrien, hängt aber stark vom Können des Bedieners ab und führt zu Schwankungen bei Faserausrichtung und Harzgehalt.\n\nAutomated Fiber Placement (AFP) und Automated Tape Laying (ATL) lösen dieses Problem durch robotergestützte Köpfe, die Fasern oder Bänder mit Submillimeter-Genauigkeit, reproduzierbarem Druck und kontrollierter Verdichtung ablegen. Dies verbessert den Lufteinschlussgehalt und reduziert Ausschuss, jedoch sind die Anlagenkosten erheblich und der Prozess ist bei stark gekrümmten oder kleinen Teilen weniger tolerant.\n\nIn meiner Erfahrung mit Rotorblatt-Laminaten hängt die Entscheidung meist vom Produktionsvolumen und der Bauteilkomplexität ab. Prototypen und Kleinserien bevorzugen weiterhin das manuelle Laminieren, während Primärstrukturen mit Tausenden Einheiten pro Jahr die AFP-Investition rechtfertigen."
+    },
     "link": ""
   },
   {
-    "title_it": "Strategie di posizionamento nel mercato del lavoro NL/DE/CH",
-    "title_en": "Positioning Strategies for the NL/DE/CH Job Market",
+    "id": "job-market-nl-de-ch",
     "date": "2026-07-15",
-    "summary_it": "Appunti su come strutturare CV e portfolio per il mercato ingegneristico in Olanda, Germania e Svizzera.",
-    "summary_en": "Notes on structuring a CV and portfolio for the engineering job market in the Netherlands, Germany, and Switzerland.",
-    "tags": [
-      "Career"
-    ],
+    "tags": ["Career"],
+    "title": {
+      "en": "Positioning Strategies for the NL/DE/CH Job Market",
+      "it": "Strategie di posizionamento nel mercato del lavoro NL/DE/CH",
+      "fr": "Stratégies de positionnement sur le marché du travail NL/DE/CH",
+      "de": "Positionierungsstrategien für den Arbeitsmarkt NL/DE/CH"
+    },
+    "summary": {
+      "en": "Notes on structuring a CV and portfolio for the engineering job market in the Netherlands, Germany, and Switzerland.",
+      "it": "Appunti su come strutturare CV e portfolio per il mercato ingegneristico in Olanda, Germania e Svizzera.",
+      "fr": "Notes sur la structuration d'un CV et d'un portfolio pour le marché de l'ingénierie aux Pays-Bas, en Allemagne et en Suisse.",
+      "de": "Notizen zur Strukturierung von Lebenslauf und Portfolio für den Ingenieurarbeitsmarkt in den Niederlanden, Deutschland und der Schweiz."
+    },
+    "body": {
+      "en": "Each of these three markets has a distinct hiring culture. The Netherlands values directness and a one-page CV with quantified achievements; long cover letters are rarely read in full. Germany still expects a more formal application package, often including a photo and a structured Lebenslauf, plus certificates for every claim on the CV.\n\nSwitzerland sits in between: efficient and outcome-focused like the Dutch market, but with a stronger expectation of precision and completeness in documentation, closer to the German standard.\n\nFor an engineering profile with composite materials and FEA experience, the strongest lever across all three markets is a portfolio that shows real problem-solving, not just tool proficiency. Recruiters and hiring managers respond much better to '3% mass reduction while maintaining stiffness' than to a list of software names.",
+      "it": "Ognuno di questi tre mercati ha una cultura di selezione distinta. I Paesi Bassi apprezzano la diretta e un CV di una pagina con risultati quantificati; le lettere di presentazione lunghe raramente vengono lette per intero. La Germania si aspetta ancora un pacchetto di candidatura più formale, spesso con foto e un Lebenslauf strutturato, oltre a certificati per ogni affermazione nel CV.\n\nLa Svizzera si colloca nel mezzo: efficiente e orientata ai risultati come il mercato olandese, ma con un'aspettativa più forte di precisione e completezza nella documentazione, più vicina allo standard tedesco.\n\nPer un profilo ingegneristico con esperienza in materiali compositi e FEA, la leva più forte in tutti e tre i mercati è un portfolio che mostri capacità reali di problem-solving, non solo competenza negli strumenti. I recruiter rispondono molto meglio a 'riduzione di massa del 3% mantenendo la rigidezza' rispetto a un elenco di nomi di software.",
+      "fr": "Chacun de ces trois marchés a une culture de recrutement distincte. Les Pays-Bas valorisent la franchise et un CV d'une page avec des résultats chiffrés ; les longues lettres de motivation sont rarement lues intégralement. L'Allemagne attend encore un dossier de candidature plus formel, incluant souvent une photo et un Lebenslauf structuré, ainsi que des certificats pour chaque affirmation du CV.\n\nLa Suisse se situe entre les deux : efficace et orientée résultats comme le marché néerlandais, mais avec une exigence plus forte de précision et d'exhaustivité dans la documentation, plus proche du standard allemand.\n\nPour un profil d'ingénieur avec une expérience en matériaux composites et FEA, le levier le plus fort sur ces trois marchés est un portfolio qui démontre une réelle capacité à résoudre des problèmes, pas seulement une maîtrise des outils. Les recruteurs réagissent bien mieux à 'réduction de masse de 3% tout en maintenant la rigidité' qu'à une liste de logiciels.",
+      "de": "Jeder dieser drei Märkte hat eine eigene Einstellungskultur. Die Niederlande schätzen Direktheit und einen einseitigen Lebenslauf mit quantifizierten Erfolgen; lange Anschreiben werden selten vollständig gelesen. Deutschland erwartet weiterhin ein formelleres Bewerbungspaket, oft mit Foto und strukturiertem Lebenslauf, sowie Nachweise für jede Angabe im Lebenslauf.\n\nDie Schweiz liegt dazwischen: effizient und ergebnisorientiert wie der niederländische Markt, aber mit einem stärkeren Anspruch an Präzision und Vollständigkeit der Unterlagen, näher am deutschen Standard.\n\nFür ein Ingenieurprofil mit Erfahrung in Verbundwerkstoffen und FEA ist der stärkste Hebel in allen drei Märkten ein Portfolio, das echte Problemlösungskompetenz zeigt, nicht nur Werkzeugkenntnisse. Recruiter reagieren viel besser auf '3% Massenreduktion bei gleichbleibender Steifigkeit' als auf eine Liste von Softwarenamen."
+    },
+    "link": ""
+  },
+  {
+    "id": "carbon-intake-training",
+    "date": "2026-08-25",
+    "tags": ["Fitness", "Nutrition"],
+    "title": {
+      "en": "Carbohydrate Timing Around Strength Training",
+      "it": "Tempistica dei carboidrati nell'allenamento di forza",
+      "fr": "Le timing des glucides autour de la musculation",
+      "de": "Kohlenhydrat-Timing rund um das Krafttraining"
+    },
+    "summary": {
+      "en": "A practical look at when to eat carbs around lifting sessions for performance and recovery.",
+      "it": "Uno sguardo pratico su quando assumere carboidrati intorno alle sedute di forza per prestazione e recupero.",
+      "fr": "Un aperçu pratique du moment idéal pour consommer des glucides autour des séances de musculation.",
+      "de": "Ein praktischer Blick darauf, wann Kohlenhydrate rund ums Krafttraining für Leistung und Erholung sinnvoll sind."
+    },
+    "body": {
+      "en": "Glycogen is the primary fuel for high-intensity strength work like heavy squats or bench press sets. Training in a glycogen-depleted state doesn't just hurt performance in that session, it also blunts the signaling for muscle protein synthesis afterward.\n\nA practical approach: a carb-containing meal 2-3 hours before training gives enough time for digestion while topping up liver and muscle glycogen. Post-workout, pairing fast-digesting carbs with protein within the next couple of hours helps replenish glycogen and supports recovery, though the so-called 'anabolic window' is wider than older bodybuilding folklore suggested.\n\nFor someone training consistently (bench, squat, deadlift) while also doing boxing conditioning, total daily carbohydrate intake matters more than perfect timing. Getting the daily total right, then adjusting timing around the hardest sessions, is a more sustainable approach than obsessing over minute-by-minute nutrient timing.",
+      "it": "Il glicogeno è il carburante principale per il lavoro di forza ad alta intensità come squat pesanti o serie di panca. Allenarsi in uno stato di deplezione di glicogeno non solo danneggia la prestazione in quella sessione, ma attenua anche il segnale per la sintesi proteica muscolare successiva.\n\nUn approccio pratico: un pasto contenente carboidrati 2-3 ore prima dell'allenamento dà abbastanza tempo per la digestione ricaricando il glicogeno epatico e muscolare. Dopo l'allenamento, abbinare carboidrati a rapida digestione con proteine nelle due ore successive aiuta a ripristinare il glicogeno e sostiene il recupero, anche se la cosiddetta 'finestra anabolica' è più ampia di quanto suggerito dal vecchio folklore del bodybuilding.\n\nPer chi si allena costantemente (panca, squat, stacco) facendo anche condizionamento boxe, l'apporto totale giornaliero di carboidrati conta più della tempistica perfetta. Ottenere il totale giornaliero corretto, poi aggiustare la tempistica intorno alle sessioni più dure, è un approccio più sostenibile rispetto a ossessionarsi sul timing minuto per minuto.",
+      "fr": "Le glycogène est le principal carburant pour le travail de force à haute intensité comme les squats lourds ou les séries de développé couché. S'entraîner en état de déplétion glycogénique ne nuit pas seulement à la performance de cette séance, mais atténue aussi le signal de synthèse protéique musculaire par la suite.\n\nUne approche pratique : un repas contenant des glucides 2 à 3 heures avant l'entraînement laisse assez de temps pour la digestion tout en rechargeant le glycogène hépatique et musculaire. Après l'entraînement, associer des glucides à digestion rapide avec des protéines dans les deux heures suivantes aide à reconstituer le glycogène et favorise la récupération, bien que la fameuse 'fenêtre anabolique' soit plus large que ne le suggérait l'ancien folklore du bodybuilding.\n\nPour quelqu'un qui s'entraîne régulièrement (développé couché, squat, soulevé de terre) tout en faisant de la boxe, l'apport glucidique quotidien total compte plus que le timing parfait. Bien calibrer le total journalier, puis ajuster le timing autour des séances les plus difficiles, est une approche plus durable que l'obsession du timing minute par minute.",
+      "de": "Glykogen ist der wichtigste Treibstoff für hochintensives Krafttraining wie schwere Kniebeugen oder Bankdrücken-Sätze. Training bei entleerten Glykogenspeichern beeinträchtigt nicht nur die Leistung in dieser Einheit, sondern schwächt auch das Signal für die Muskelproteinsynthese danach.\n\nEin praktischer Ansatz: Eine kohlenhydrathaltige Mahlzeit 2-3 Stunden vor dem Training gibt genug Zeit zur Verdauung und füllt Leber- und Muskelglykogen auf. Nach dem Training helfen schnell verdauliche Kohlenhydrate zusammen mit Protein innerhalb der nächsten Stunden, das Glykogen wieder aufzufüllen und die Erholung zu unterstützen, auch wenn das sogenannte 'anabole Fenster' größer ist als von älteren Bodybuilding-Mythen behauptet.\n\nFür jemanden, der konsequent trainiert (Bankdrücken, Kniebeugen, Kreuzheben) und zusätzlich Boxtraining macht, zählt die tägliche Gesamtkohlenhydratmenge mehr als perfektes Timing. Die tägliche Gesamtmenge richtig zu gestalten und dann das Timing um die härtesten Einheiten herum anzupassen, ist nachhaltiger als eine Fixierung auf minutengenaues Nährstoff-Timing."
+    },
     "link": ""
   }
 ]
