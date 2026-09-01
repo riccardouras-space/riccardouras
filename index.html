@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,14 +17,16 @@
     <a href="index.html" class="logo">Riccardo Uras</a>
     <nav class="main-nav">
       <a href="index.html" data-i18n="nav_home" class="active">Home</a>
-      <a href="projects.html" data-i18n="nav_projects">Projects</a>
       <a href="research.html" data-i18n="nav_research">Research</a>
+      <a href="educational.html" data-i18n="nav_educational">Educational</a>
       <a href="about.html" data-i18n="nav_about">About</a>
     </nav>
     <div class="header-right">
       <div class="lang-switch">
-        <button data-lang="it">IT</button>
         <button data-lang="en">EN</button>
+        <button data-lang="it">IT</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="de">DE</button>
       </div>
     </div>
   </div>
@@ -36,25 +38,24 @@
     <p class="subtitle" data-i18n="hero_subtitle">Mechanical Design Engineer</p>
     <p class="hero-text" data-i18n="hero_text">...</p>
     <div class="hero-links">
-      <a href="projects.html" class="btn btn-primary" data-i18n="hero_btn_projects">View projects</a>
-      <a href="research.html" class="btn btn-secondary" data-i18n="hero_btn_research">My research</a>
+      <a href="research.html" class="btn btn-primary" data-i18n="hero_btn_research">Explore my research</a>
+      <a href="educational.html" class="btn btn-secondary" data-i18n="hero_btn_educational">Educational notes</a>
     </div>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h2 data-i18n="home_latest_projects">Latest projects</h2>
-    <div id="latest-projects" class="card-grid"></div>
-    <p class="see-all"><a href="projects.html" data-i18n="see_all">View all projects &rarr;</a></p>
+    <h2 data-i18n="home_intro_title">What I focus on</h2>
+    <p class="section-intro-text" data-i18n="home_intro_text">...</p>
   </div>
 </section>
 
-<section class="section section-alt">
+<section class="section">
   <div class="container">
-    <h2 data-i18n="home_latest_research">Latest research</h2>
-    <div id="latest-research" class="card-grid"></div>
-    <p class="see-all"><a href="research.html" data-i18n="see_all_research">View all research &rarr;</a></p>
+    <h2 data-i18n="home_latest_research">Latest articles</h2>
+    <div id="latest-research" class="list-grid"></div>
+    <p class="see-all"><a href="research.html" data-i18n="see_all_research">View all articles &rarr;</a></p>
   </div>
 </section>
 

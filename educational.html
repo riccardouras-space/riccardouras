@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Research | Riccardo Uras</title>
+<title>Educational | Riccardo Uras</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -16,8 +16,8 @@
     <a href="index.html" class="logo">Riccardo Uras</a>
     <nav class="main-nav">
       <a href="index.html" data-i18n="nav_home">Home</a>
-      <a href="research.html" data-i18n="nav_research" class="active">Research</a>
-      <a href="educational.html" data-i18n="nav_educational">Educational</a>
+      <a href="research.html" data-i18n="nav_research">Research</a>
+      <a href="educational.html" data-i18n="nav_educational" class="active">Educational</a>
       <a href="about.html" data-i18n="nav_about">About</a>
     </nav>
     <div class="header-right">
@@ -31,34 +31,30 @@
   </div>
 </header>
 
-<div id="research-list-view" class="list-view">
+<div id="educational-list-view" class="list-view">
   <section class="page-header">
     <div class="container">
-      <h1 data-i18n="research_title">Research &amp; Articles</h1>
-      <p data-i18n="research_subtitle">...</p>
+      <h1 data-i18n="educational_title">Educational</h1>
+      <p data-i18n="educational_subtitle">...</p>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <div class="filters" id="tag-filters-research"></div>
-      <div id="all-research" class="list-grid"></div>
+      <div id="educational-tree" class="tree"></div>
     </div>
   </section>
 </div>
 
-<div id="article-view" class="detail-view">
+<div id="educational-entry-view" class="detail-view">
   <div class="sticky-bar">
     <div class="container">
-      <span class="back-link" id="back-to-list-link" data-i18n="back_to_list">&larr; Back to all articles</span>
-      <span class="reading-indicator">
-        <span data-i18n="reading_label">You are reading</span>:
-        <strong id="article-reading-title"></strong>
-      </span>
+      <span class="back-link" id="back-to-educational-link" data-i18n="back_to_educational">&larr; Back to Educational</span>
+      <span class="breadcrumb" id="edu-breadcrumb"></span>
     </div>
   </div>
   <div class="container">
-    <div class="detail-body" id="article-content"></div>
+    <div class="detail-body" id="educational-entry-content"></div>
   </div>
 </div>
 
