@@ -36,7 +36,8 @@ h1, h2, h3 { line-height: 1.25; letter-spacing: -0.015em; font-weight: 700; colo
 
 .site-header { border-bottom: 1px solid var(--border); position: sticky; top: 0; background: rgba(250,250,248,0.92); backdrop-filter: blur(10px); z-index: 30; }
 .header-inner { display: flex; justify-content: space-between; align-items: center; padding: 20px 28px; gap: 16px; flex-wrap: wrap; max-width: var(--maxw); margin: 0 auto; }
-.logo { font-weight: 700; font-size: 1.02rem; color: var(--text); letter-spacing: -0.01em; }
+.logo { font-weight: 700; font-size: 1.02rem; color: var(--text); letter-spacing: -0.01em; display: flex; align-items: center; gap: 8px; }
+.logo-icon { width: 24px; height: 24px; border-radius: 4px; object-fit: cover; }
 .logo:hover { color: var(--accent); }
 .header-right { display: flex; align-items: center; gap: 22px; }
 .main-nav { display: flex; align-items: center; }
