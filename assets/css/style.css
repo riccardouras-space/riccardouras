@@ -251,3 +251,12 @@ h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; font-weight: 700; }
   .header-right { width: 100%; justify-content: space-between; order: 3; margin-top: 10px; }
   .hero { padding: 64px 0 44px; }
 }
+
+
+.hero {
+  background-image:
+    linear-gradient(180deg, rgba(11,13,18,0.85), rgba(11,13,18,0.95)),
+    url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-position: center 40%;
+}
