@@ -10,9 +10,8 @@
 <link rel="icon" href="data:,">
 </head>
 <body>
-
 <header class="site-header">
-  <div class="container header-inner">
+  <div class="header-inner">
     <a href="index.html" class="logo">Riccardo Uras</a>
     <nav class="main-nav">
       <a href="index.html" data-i18n="nav_home">Home</a>
@@ -30,7 +29,6 @@
     </div>
   </div>
 </header>
-
 <div id="research-list-view" class="list-view">
   <section class="page-header">
     <div class="container">
@@ -38,36 +36,32 @@
       <p data-i18n="research_subtitle">...</p>
     </div>
   </section>
-
   <section class="section">
     <div class="container">
       <div class="filters" id="tag-filters-research"></div>
-      <div id="all-research" class="list-grid"></div>
+      <div id="research-grid" class="card-grid">
+        <div id="grid-status" class="grid-status"></div>
+      </div>
+      <div id="grid-sentinel" class="grid-sentinel"></div>
     </div>
   </section>
 </div>
-
 <div id="article-view" class="detail-view">
   <div class="sticky-bar">
-    <div class="container">
+    <div class="container-narrow">
       <span class="back-link" id="back-to-list-link" data-i18n="back_to_list">&larr; Back to all articles</span>
-      <span class="reading-indicator">
-        <span data-i18n="reading_label">You are reading</span>:
-        <strong id="article-reading-title"></strong>
-      </span>
+      <span class="reading-indicator"><span data-i18n="reading_label">You are reading</span>: <strong id="article-reading-title"></strong></span>
     </div>
   </div>
-  <div class="container">
+  <div class="container-narrow">
     <div class="detail-body" id="article-content"></div>
   </div>
 </div>
-
 <footer class="site-footer">
   <div class="container">
     <p>&copy; <span id="year"></span> Riccardo Uras &mdash; <span data-i18n="footer_rights">All rights reserved.</span></p>
   </div>
 </footer>
-
 <script src="assets/js/main.js"></script>
 </body>
 </html>
